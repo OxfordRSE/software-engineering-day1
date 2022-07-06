@@ -111,7 +111,7 @@ Note that this is slightly different from the **constructor** if you've encounte
 >     papers: typing.List[typing.Dict] = dataclasses.field(default_factory=list)
 >
 > alice = Academic('Alice')
-> print(alice)
+> print(alice.name)
 > ~~~
 > {: .language-python}
 >
